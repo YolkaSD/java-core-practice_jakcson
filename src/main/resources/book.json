@@ -1,0 +1,52 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published": "1960"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "published": "1949"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "published": "1951"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "published": "1813"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "published": "1967"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "published": "1945"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "published": "1925"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "published": "1932"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "published": "1937"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "published": "1954-1955"
+  }
+]
