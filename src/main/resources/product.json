@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "price": 19.99,
+    "description": "This is a great product that does amazing things!",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "I love this product! It works great and is easy to use."
+      },
+      {
+        "rating": 4,
+        "comment": "This product is pretty good, but it could be better."
+      },
+      {
+        "rating": 3,
+        "comment": "Not bad, but not great either."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Product B",
+    "price": 29.99,
+    "description": "This is another great product that does amazing things!",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "This product works really well and is very easy to use."
+      },
+      {
+        "rating": 5,
+        "comment": "I can't believe how great this product is. It's definitely worth the money."
+      },
+      {
+        "rating": 4,
+        "comment": "This product is really good, but there are a few things that could be improved."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Product C",
+    "price": 9.99,
+    "description": "This is a budget-friendly product that still gets the job done.",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "This product is okay, but I've used better."
+      },
+      {
+        "rating": 2,
+        "comment": "I was really disappointed with this product. It didn't work well at all."
+      },
+      {
+        "rating": 4,
+        "comment": "For the price, this product is really good. It's not the best, but it gets the job done."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Product D",
+    "price": 39.99,
+    "description": "This is a high-end product that is worth the investment.",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "This is the best product I've ever used. It's worth every penny."
+      },
+      {
+        "rating": 4,
+        "comment": "I really like this product, but it's a bit expensive."
+      },
+      {
+        "rating": 5,
+        "comment": "This product is amazing! It's worth every cent and more."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Product E",
+    "price": 49.99,
+    "description": "This is another high-end product that is worth the investment.",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "I really like this product, but I wish it was a bit cheaper."
+      },
+      {
+        "rating": 5,
+        "comment": "This product is amazing! It's worth every penny."
+      },
+      {
+        "rating": 5,
+        "comment": "I can't believe how great this product is. It's definitely worth the money."
+      }
+    ]
+  }
+]

@@ -29,6 +29,10 @@ public class Main {
         File userJSON = new File("src/main/resources/user.json");
         User user = mapper.readValue(userJSON, new TypeReference<>() {});
         System.out.println(user);
+        //Task - 5
+        File productJSON = new File("src/main/resources/product.json");
+        List<Product> productList = mapper.readValue(productJSON, new TypeReference<>() {});
+        System.out.println(productList);
 
     }
 
