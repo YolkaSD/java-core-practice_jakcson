@@ -1,0 +1,9 @@
+{
+  "name" : "Anastasia",
+  "email" : "example@email.com",
+  "address" : {
+    "city" : "Novosibirsk",
+    "street" : "Birch street",
+    "zip" : 630600
+  }
+}

@@ -16,12 +16,20 @@ public class Main {
         //Task - 1
         File personJSON = new File("src/main/resources/person.json");
         List<Person> personList = mapper.readValue(personJSON, new TypeReference<>() {});
+        System.out.println(personList);
         //Task - 2
         File bookJSON = new File("src/main/resources/book.json");
-        List<Book> bookList = mapper.readValue(personJSON, new TypeReference<>() {});
+        List<Book> bookList = mapper.readValue(bookJSON, new TypeReference<>() {});
+        System.out.println(bookList);
         //Task - 3
         File orderJSON = new File("src/main/resources/order.json");
-        List<Order> orderList = mapper.readValue(orderJSON, new TypeReference<>() {});
+        Order order = mapper.readValue(orderJSON, new TypeReference<>() {});
+        System.out.println(order);
+        //Task - 4
+        File userJSON = new File("src/main/resources/user.json");
+        User user = mapper.readValue(userJSON, new TypeReference<>() {});
+        System.out.println(user);
+
     }
 
     public static <T> List<T> readJsonFile(File json, Class<T> clazz) {
