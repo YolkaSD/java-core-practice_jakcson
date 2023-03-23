@@ -11,17 +11,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
         //Task - 1
         File personJSON = new File("src/main/resources/person.json");
-        List<Person> personList = readJsonFile(personJSON, Person.class);
+        List<Person> personList = mapper.readValue(personJSON, new TypeReference<>() {});
         //Task - 2
         File bookJSON = new File("src/main/resources/book.json");
-        List<Book> bookList = new ArrayList<>();
-        readJsonFile2(bookJSON, Book.class, bookList);
-
-
-
+        List<Book> bookList = mapper.readValue(personJSON, new TypeReference<>() {});
+        //Task - 3
+        File orderJSON = new File("src/main/resources/order.json");
+        List<Order> orderList = mapper.readValue(orderJSON, new TypeReference<>() {});
     }
 
     public static <T> List<T> readJsonFile(File json, Class<T> clazz) {
@@ -30,7 +30,6 @@ public class Main {
             ObjectMapper mapper = new ObjectMapper();
             JavaType type = mapper.getTypeFactory().constructCollectionType(List.class, clazz);
             list = mapper.readValue(inputStream, type);
-
         } catch (IOException e) {
             System.err.println("Error! Failed to read file: " + json.getAbsolutePath() + ". " + e.getMessage());
         }
